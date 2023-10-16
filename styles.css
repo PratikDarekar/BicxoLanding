@@ -1,0 +1,512 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.logo{
+    padding-left: 30px;
+    
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Style the header navigation bar */
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    padding-top: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header ul {
+    list-style: none;
+    justify-content: space-between;
+    text-align: right;
+}
+
+header ul li {
+    padding: 10px;
+    display: inline;
+    margin: 20px;
+}
+
+header ul li a {
+    text-align: right;
+    color: black;
+    text-decoration: solid;
+
+}
+
+/* Inside your existing CSS */
+
+/* Style the "Free Trial" button */
+
+.btn.btn-red {
+    background-color: #ff0000; /* Red color */
+    color: white;
+    size-adjust: inherit;
+    padding-right: 20px;
+}
+
+.btn.btn-red:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+
+/* Style the hero section */
+#content {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
+#content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-us {
+    padding-left: 50px;
+    font-size: x-large;
+
+}
+
+
+/* Add this CSS to style the span elements */
+.additional-lines p span {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed for spacing */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+/* Add this CSS to create a curved button */
+.btn.btn-red {
+    background-color: #ff0000; /* Red color for the button */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 25px; /* Increase the border-radius to make it curved */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Display the button inline with text */
+    margin-top: 10px; /* Adjust margin as needed to separate from the sentences */
+}
+
+.btn.btn-red:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Style the "growth" section */
+#companies {
+    background-color: #ADD8E6; /* Light blue background color */
+    padding: 40px 0; /* Adjust padding as needed */
+    text-align: center;
+   
+}
+#companies .container
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#companies h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style the "growth" section */
+#companies {
+    background-color: #ADD8E6; /* Light blue background color */
+    padding: 40px 0; /* Adjust padding as needed */
+    text-align: center;
+    padding-top: 20px;
+}
+
+#companies h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style individual company images */
+.company-image {
+    padding-top: 20px;
+    width: 150px; /* Fixed width for all images */
+    height: 75px; /* Fixed height for all images */
+    margin: 0 20px; /* Adjust margin as needed between images */
+}
+
+#info h2{
+    padding-left: 20px;
+}
+
+/* Container */
+.info-reg {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  html,
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+.main-block {
+    display: flex;
+html,
+    body {
+        min-height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 14px;
+        color: black;
+    }
+
+    .main-block .h2{
+        color: black;
+    }
+    
+
+    .main-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #1c87c9;
+    }
+
+    form {
+        padding: 25px;
+        margin: 25px;
+        box-shadow: 0 2px 5px #f5f5f5;
+        background: #f5f5f5;
+        border-radius: 10px;
+        /* Rounded corners */
+    }
+
+    .fas {
+        margin: 25px 10px 0;
+        font-size: 72px;
+        color: black;
+    }
+
+    .fa-envelope {
+        transform: rotate(-20deg);
+    }
+
+    .fa-at,
+    .fa-mail-bulk {
+        transform: rotate(10deg);
+    }
+
+    input,
+    textarea {
+        width: calc(100% - 18px);
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #1c87c9;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: black;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: red;
+        /* Red background color */
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    button:hover {
+        background: #2371a0;
+    }
+
+    @media (min-width: 568px) {
+        .main-block {
+            flex-direction: row;
+        }
+
+        .left-part,
+        form {
+            width: 50%;
+        }
+
+        .fa-envelope {
+            margin-top: 0;
+            margin-left: 20%;
+        }
+
+        .fa-at {
+            margin-top: -10%;
+            margin-left: 65%;
+        }
+
+        .fa-mail-bulk {
+            margin-top: 2%;
+            margin-left: 28%;
+        }
+    } flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c87c9;
+}
+
+form {
+    padding: 25px;
+    margin: 25px;
+    background: #f5f5f5;
+        border-radius: 10px;
+}
+
+.fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+}
+
+.fa-envelope {
+    transform: rotate(-20deg);
+}
+
+.fa-at,
+.fa-mail-bulk {
+    transform: rotate(10deg);
+}
+
+input,
+textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+        border-radius: 10px;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: red;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #a02323;
+}
+
+@media (min-width: 568px) {
+    .main-block {
+        flex-direction: row;
+    }
+
+    .left-part,
+    form {
+        width: 50%;
+    }
+
+    .fa-envelope {
+        margin-top: 0;
+        margin-left: 20%;
+    }
+
+    .fa-at {
+        margin-top: -10%;
+        margin-left: 65%;
+    }
+
+    .fa-mail-bulk {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+}
+
+
+
+#company-section {
+    background-color: #f5f5f5; /* Background color for the section */
+    padding: 40px 0; /* Add padding to create space around the content */
+    text-align: center; /* Center-align the content */
+}
+
+.company-heading {
+    font-size: 24px; /* Set the font size for the heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.company-info-container {
+    display: flex;
+    flex-direction: column; /* Stack blocks vertically on small screens */
+    margin-bottom: 30px; /* Add margin below the blocks */
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flexbox;
+    
+}
+
+.company-block {
+    
+    width: 100px; /* Blocks take full width on small screens */
+    background-color: white; /* Background color for the blocks */
+    padding: 10px; /* Reduce padding inside the blocks */
+    border: 1px solid #ccc; /* Add a border around the blocks */
+    border-radius: 5px; /* Add rounded corners to the blocks */
+    margin-bottom: 20px; /* Add margin between blocks */
+    box-shadow: #333;
+    
+}
+
+.company-text {
+    font-size: 12px; /* Set the font size for company text */
+}
+
+.company-logos {
+    justify-content: space-between;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column; /* Stack logos vertically on small screens */
+    margin-top: 20px; /* Add margin above the logos */
+    padding-left: 200px;
+    padding-right: 200px;
+
+
+}
+
+
+
+.company-logo img {
+    max-width: 60px; /* Reduce the maximum width of the logos */
+    margin: 10px auto; /* Center-align the logos */
+}
+
+.person-name {
+    font-weight: bold; /* Make person names bold */
+    margin: 5px 0; /* Add margin between elements */
+}
+
+.company-name {
+    font-size: 10px; /* Reduce the font size for company names */
+    color: #777; /* Set a color for company names */
+    margin: 5px 0; /* Add margin between elements */
+}
+
+/* Media query for screens 768px and above */
+@media (min-width: 768px) {
+    .company-info-container {
+        flex-direction: row; /* Display blocks side by side on larger screens */
+    }
+
+    .company-block {
+        flex: 1; /* Distribute space evenly between blocks */
+        width: auto; /* Reset width for larger screens */
+        margin-right: 20px; /* Add right margin between blocks */
+        margin-bottom: 0; /* Remove margin between blocks and logos */
+    }
+
+    .company-logos {
+        flex-direction: row; /* Display logos side by side on larger screens */
+        margin-top: 0; /* Remove margin above the logos */
+    }
+
+    .company-logo {
+        margin-right: 20px; /* Add right margin between logos */
+        margin-bottom: 0; /* Remove margin between logos */
+    }
+}
+
+/* Style the contact section */
+
+/* Style the contact section */
+#contact-section {
+    background-color: aquamarine; /* Background color for the section */
+    padding: 20px 0; /* Add padding to create space around the content */
+    text-align: center; /* Center-align the content */
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: nowrap; /* Allow halves to wrap on smaller screens */
+    justify-content: center; /* Center-align the halves */
+}
+
+.contact-half {
+    flex: 1; /* Distribute space evenly between halves */
+    width: 100%; /* Halves take full width on small screens */
+    background-color: aquamarine; /* Background color for the halves */
+    padding: 20px; /* Add padding inside the halves */
+    border: 1px solid #ccc; /* Add a border around the halves */
+    border-radius: 5px; /* Add rounded corners to the halves */
+    margin-bottom: 20px; /* Add margin between halves */
+    text-align: left; /* Left-align the content inside the halves */
+}
+
+.contact-heading {
+    font-size: 24px; /* Set the font size for the heading */
+    margin-bottom: 10px; /* Add margin below the heading */
+}
+
+/* .contact-half.social-media {
+    background-color: #f5f5f5; 
+} */
+
+
+
+/* Media query for screens 768px and above */
+@media (min-width: 768px) {
+    .contact-half {
+        width: calc(50% - 10px); /* Halves take half width on larger screens with margin */
+        margin-right: 20px; /* Add right margin between halves */
+    }
+}
